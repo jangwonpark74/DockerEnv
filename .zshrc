@@ -20,6 +20,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#00afff"
+
 # User configuration
 export MANPATH="/usr/local/man:$MANPATH"
 
