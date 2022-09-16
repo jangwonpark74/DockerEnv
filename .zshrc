@@ -37,3 +37,5 @@ export GOPATH=${HOME}/project/go_ws
 export os=$(go env GOOS)
 export arch=$(go env GOARCH)
 export PATH="${GOROOT}/bin:${PATH}"
+
+vim +PluginInstall +qall
